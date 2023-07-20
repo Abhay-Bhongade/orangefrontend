@@ -1,0 +1,185 @@
+.galary-area{
+    width: 331px;
+/* height: 500px; */
+border-radius: 30px;
+background: #FFF;
+box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.11);
+    padding: 35px 25px;
+}
+.galary-area-heading p{
+  color: #ff8000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+margin: 0;  
+}
+.add-img{
+    border-radius: 20px;
+    background: #EEE;
+    padding: 115px;
+    height: 245px;
+    width: 281px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-img img{
+    width: 100%;
+}
+.uplaod-btn{
+ width: 200px;
+  height: 35px;
+  display: flex;
+align-items: center;
+justify-content: center;
+
+background: #ff8000;
+    color: #FFF;
+}
+.uplaod-btn:hover{
+    border: 1px solid #ff8000;
+background: #FFF;
+color: #ff8000;
+}
+.form-main-area{
+    border-radius: 30px;
+background: #FFF;
+box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.11);
+    padding: 35px 100px;
+    width: 650px;
+}
+.form-heading p{
+color: #ff8000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+margin: 0; 
+}
+.form-btn{
+   width: 200px;
+  height: 35px;
+  display: flex;
+align-items: center;
+justify-content: center;
+
+background: #ff8000;
+    color: #FFF;  
+}
+.form-btn:hover{
+     border: 1px solid #ff8000;
+background: #FFF;
+color: #ff8000;
+}
+.btn-form-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-main-container .form-control{
+        font-size: 13px !important;
+    font-weight: 400 !important;
+}
+.btn-galary-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-side-text-area-modal p{
+color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+margin: 0; 
+display: none;
+}
+.heading-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 14px 0 0;
+}
+.left-side-btn-area-modal{
+    cursor: pointer;
+}
+.left-side-btn-area-modal .coss-icon-modal{
+    color: #ff8000 !important;
+}
+.left-side-img-modal{
+        width: 125px;
+    height: 115px;
+    border: 1px solid #ff8000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        margin-right: 2rem!important;
+}
+.left-side-img-modal img{
+    width: 80%;
+}
+.down-btn{
+    padding: 3px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #ff8000;
+    background: #ff8000;
+    color: #FFF;
+}
+.down-btn:hover{
+    background: #FFF;
+    color: #ff8000;
+    
+border: 1px solid #ff8000;
+
+}
+.right-side-icon-modal .modal-date-icon{
+    color: #746c6c !important;
+  font-size: 21px !important; 
+}
+.left-side-text-date-modal p{
+   color: #ff8000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+margin: 0;  
+}
+.left-side-text-date-modal.date p{
+  color: #746c6c;
+  font-size: 14px; 
+}
+.date-icon-text-area{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.img-text-main-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 20px 20px;
+}
+.main-modal-container {
+    /* background-image: url("./assets/roon-3.png");
+    background-size:  cover;
+   background-repeat: no-repeat;
+   z-index: 1 !important;
+   position: relative; */
+   position: relative;
+   z-index: 1;
+    /* padding: 20px; */
+}
+.color-overly.modal-color{
+    border-radius: 10px;
+}
