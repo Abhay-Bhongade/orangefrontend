@@ -1,4 +1,4 @@
-import '../AllHotelsDisplay/all-hotels-display.css'
+import "../AllHotelsDisplay/all-hotels-display.css";
 
 import HotelImg from "../../assets/hotels-3.jpg";
 import HotelImg2 from "../../assets/hotels-4.jpg";
@@ -9,7 +9,7 @@ import BorderColorOutlinedIcon from "@mui/icons-material/BorderColorOutlined";
 import DeleteOutlineOutlinedIcon from "@mui/icons-material/DeleteOutlineOutlined";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const AllHotelsDisplay = () => {
   return (
@@ -54,7 +54,7 @@ const AllHotelsDisplay = () => {
       <div className="container">
         <div className="row my-2 px-2">
           <div className="col-md-3 main-card-container mt-1 mb-3">
-            <Link to="/view-hotel" className="crad-area-main bg-white">
+            <div className="crad-area-main bg-white">
               <div className="img-area">
                 <img src={HotelImg} alt="" />
               </div>
@@ -86,7 +86,7 @@ const AllHotelsDisplay = () => {
                   </li>
                 </ul>
               </div>
-            </Link>
+            </div>
           </div>
           <div className="col-md-3 main-card-container mt-1 mb-3">
             <div className="crad-area-main bg-white">
@@ -347,6 +347,6 @@ const AllHotelsDisplay = () => {
       </div>
     </>
   );
-}
+};
 
-export default AllHotelsDisplay
+export default AllHotelsDisplay;

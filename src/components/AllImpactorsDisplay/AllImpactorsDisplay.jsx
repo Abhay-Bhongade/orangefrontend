@@ -199,7 +199,7 @@ const AllImpactorsDisplay = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 my-3">
+          {/* <div className="col-md-4 my-3">
             <div className="main-card-re-area active-card">
               <div className="left-side-img-area">
                 <img src={profile1} alt="" />
@@ -272,7 +272,7 @@ const AllImpactorsDisplay = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-md-12 pagination-area mt-3">
             <Stack spacing={2}>
               <Pagination

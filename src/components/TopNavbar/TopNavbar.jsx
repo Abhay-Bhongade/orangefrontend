@@ -1,4 +1,4 @@
-import '../TopNavbar/top-nav.css'
+import "../TopNavbar/top-nav.css";
 import { useState } from "react";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { Badge } from "@mui/material";
@@ -6,9 +6,9 @@ import Avatar from "@mui/material/Avatar";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import AddIcon from "@mui/icons-material/Add";
 import AddToPhotosRoundedIcon from "@mui/icons-material/AddToPhotosRounded";
-import Logo from '../../assets/logo.png'
+import Logo from "../../assets/logo.png";
 import profile from "../../assets/profile.jpg";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const TopNavbar = () => {
   return (
@@ -42,25 +42,28 @@ const TopNavbar = () => {
               >
                 <AddToPhotosRoundedIcon className="plus-icon" />
               </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <ul
+                class="dropdown-menu dropdownintopnavbar"
+                aria-labelledby="dropdownMenuButton1"
+              >
                 <li>
-                  <Link to="/add-hotels" class="dropdown-item active" href="#">
-                    Hotel
+                  <Link to="/add-hotels" class="dropdown-item " href="#">
+                    + Hotel
                   </Link>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Recruiters
+                    + Recruiter
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Impactors
+                    + Inspector
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Inventory
+                    + Inventory
                   </a>
                 </li>
               </ul>
@@ -75,6 +78,6 @@ const TopNavbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default TopNavbar
+export default TopNavbar;
